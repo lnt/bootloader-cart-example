@@ -1,0 +1,34 @@
+{
+  "name": "iapp",
+  "iapp/style": {
+    "css": [
+      "../dist/style/library.css",
+      "../dist/style/main.css"
+    ]
+  },
+  "iapp/app": {
+    "js": [
+      "app.js"
+    ],
+    "on": [
+      "webmodules/bootloader",
+      "jsutils/server",
+      "webmodules/jqrouter",
+      "spamjs/view",
+      "iapp/external"
+    ]
+  },
+  "iapp/products": {
+    "js": [
+      "cart/cart.js",
+      "productlist/productlist.js"
+    ],
+    "html": [
+      "cart/cart.html",
+      "productlist/productlist.html"
+    ],
+    "on": [
+      "spamjs/view"
+    ]
+  }
+}

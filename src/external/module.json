@@ -1,0 +1,9 @@
+{
+  "name": "iapp/external",
+  "iapp/set1": {
+    "js": [],
+    "on": [
+      "external_dependcies_list"
+    ]
+  }
+}

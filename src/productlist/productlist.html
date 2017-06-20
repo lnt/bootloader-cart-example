@@ -1,0 +1,20 @@
+MY Product listing
+
+
+<!-- for(var i in data.products){  -->
+<div class="product_tile">
+    <div class="prodcut_title">
+        {{data.products[i].title}}
+    </div>
+    <div class="prodcut_description">
+        {{data.products[i].description}}
+    </div>
+    <div class="prodcut_price">
+        {{data.products[i].price}}
+    </div>
+    <button class="prodcut_buy" data-id="{{i}}">
+        BUY
+    </button>
+</div>
+
+<!-- } -->
